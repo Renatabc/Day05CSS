@@ -1,0 +1,165 @@
+.frame{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	background: #dddad9;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+.card{
+	position: absolute;
+	top: 90px;
+	left: 60px;
+	height: 220px;
+	width: 280px;
+	background: #fff;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.header{
+	position: relative;
+	height: 60px;
+	width: 100%;
+	background: #fd8686;
+	color: #fff;
+}
+
+.big{
+	position: absolute;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.small{
+	position: absolute;
+	font-weight: 400;
+	font-size: 11px;
+}
+
+.title{
+	top: 12px;
+}
+
+.date{
+	top: 30px;
+}
+
+.type{
+	top: 14px;
+	right: 15px;
+}
+
+.value{
+	top: 28px;
+	right: 15px;
+}
+
+.parameter{
+  text-align: right;
+	padding: 10px 0 14px 0;
+}
+
+span{
+	position: relative;
+	font-size: 9px;
+	color: #977d7d;
+	line-height: 13px;
+	padding: 0 10px 0 25px;
+}
+
+span:before{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	display: block;
+	content: '';
+	width: 11px;
+	height: 3px;
+}
+
+.red:before{
+	background:red;
+}
+
+.blue:before{
+	background: blue;
+}
+
+.statistic{
+	position: relative;
+	height: 81px;
+	width: 260px;
+	margin: 0 auto;
+}
+
+.line-1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px; 
+	background: #F2F2F2;
+}
+
+.line-2{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	height: 1px; 
+	background: #F2F2F2;
+}
+
+.line-3{
+	position: absolute;
+	top: inherit;
+	left: 0;
+	right: 0;
+  bottom: 0;
+	height: 1px; 
+	background: #F2F2F2;
+}
+
+svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+polyline{
+	fill: none;
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+
+.pol-red{
+	stroke: red;
+}
+
+.pol-blue{
+	stroke: blue;
+}
+
+.months{
+	width: 300px;
+}
+
+.month{
+	float: left;
+	width: (100% / 5);
+	font-size: 9px;
+	color: #949494;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
